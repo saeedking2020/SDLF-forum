@@ -91,3 +91,4 @@ Route::middleware('auth')->group(function (){
 // make sort by and pages at the bottom of forum-overview
 //*********DONE************//
 // remove unused css and js in dashboard.blade and app.blade in layouts folder
+//add about of the previous projects to the project menu
