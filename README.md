@@ -1,3 +1,28 @@
+This is a complete example of the forum website. It will be updated as time passes. This is the first starting project that I have developed.In this project, I have tried to show every aspect of a website in laravel, including CRUD, pagination, connecting to telegram and sending messages, notifications, priviledges and access for each user, admins and clients, writing comments, replying to posts, showing online users, profile for each user and updating them, like and dislike posts and give ranking to users in addition to being able to search based on the intended column.
+
+This project has been developed with the latest version of laravel(12) and mysql has been used for its database.
+
+To run the project:
+1) Clone the project and extract it.
+2) Run it in an IDE, i.e. phpstorm or VScode.
+3) Run "php artisan migrate" to create the database and transfer all the necessary tables to database.(if it doesn't work, create the database in phpmyadmin.)
+4) Run "php artisan db:seed" to seed the database with the default data to run a complete forum website.
+
+This project can be further developed.
+
+Developed by Saeed Doozandeh
+
+
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
