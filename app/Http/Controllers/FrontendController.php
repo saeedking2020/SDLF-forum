@@ -111,4 +111,9 @@ class FrontendController extends Controller
         toastr()->success('The profile photo uploaded successfully');
         return back();
     }
+
+    public function about()
+    {
+        return view('client.about');
+    }
 }

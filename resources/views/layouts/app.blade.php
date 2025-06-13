@@ -51,6 +51,7 @@ $settings = Setting::latest()->first();
             @guest
                 <a class="nav-item nav-link text-white btn btn-dark" href="{{route('login')}}">Login</a>
                 <a class="nav-item nav-link text-white btn btn-dark" href="{{route('register')}}">Register</a>
+                <a class="nav-item nav-link text-white btn btn-dark" href="{{route('about')}}">About</a>
             @endguest
             <a class="nav-item nav-link text-white">
                 @auth
@@ -60,6 +61,7 @@ $settings = Setting::latest()->first();
                         @csrf
                         <button type="submit" class="btn btn-outline-danger">Logout</button>
                     </form>
+                    <a class="nav-item nav-link text-white btn btn-dark" href="{{route('about')}}">About</a>
                 @endauth
             </a>
         </div>

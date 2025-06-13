@@ -16,6 +16,8 @@ Route::get('/', [FrontendController::class, 'index']);
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/about', [FrontendController::class, 'about'])->name('about');
+
 Route::get('new-topic', function () {
     return view('client.new-topic');
 });
