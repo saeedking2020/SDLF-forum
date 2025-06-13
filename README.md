@@ -8,9 +8,11 @@ To run the project:
 3) Run "php artisan migrate" to create the database and transfer all the necessary tables to database.(if it doesn't work, create the database in phpmyadmin.)
 4) Run "php artisan db:seed" to seed the database with the default data to run a complete forum website.
 
+**Default username and password with admin privileges) username: admin@admin.com password: admin@admin.com**
+
 This project can be further developed.
 
-Developed by Saeed Doozandeh
+Developed by **Saeed Doozandeh**
 
 
 
